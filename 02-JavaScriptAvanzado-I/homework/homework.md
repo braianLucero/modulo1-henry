@@ -13,7 +13,7 @@ var b = 10;
 var c = function (a, b, c) {
    var x = 10;
    console.log(x); // 10
-   console.log(a); // 8
+   console.log(a); // 8  // global 
    var f = function (a, b, c) {
       b = a; 
       console.log(b); // 8
