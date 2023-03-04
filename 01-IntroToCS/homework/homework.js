@@ -15,7 +15,7 @@ function DecimalABinario(num) {
          binary = (num % 2) + binary;
          num = Math.floor(num / 2);      
    }
-   return binary;
+   return binary
 }
 
 module.exports = {
