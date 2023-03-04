@@ -1,5 +1,5 @@
 'use strict';
-
+ // tengo la opcion de usar el metodo parseint()
 function BinarioADecimal(num) {
    let sum  = 0;
 
@@ -9,6 +9,7 @@ function BinarioADecimal(num) {
    return sum
 }
 
+// tengo la opcion de usar el metodo tosTring()
 function DecimalABinario(num) {
    let  binary  = '';
    while (num > 0){
